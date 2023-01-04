@@ -1,0 +1,95 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+.container {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    background-color: #f5f3f4;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 100%;
+    width: 5%;
+}
+
+header nav {
+    margin-right: 10%;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+header nav ul li:last-child a {
+    color: #ea1d2c;
+}
+
+header nav ul li:last-child a {
+    color: #ea1d2c;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #3e3e3e;
+}
+
+header nav ul li a:hover{
+    color: #ea1d2c;
+}
+
+
+main {
+    display: flex;
+    margin: 25px;
+    flex-wrap: wrap;
+    flex: 15 1;
+}
+
+main .card {
+    margin: 40px;
+    background-color: #f5f3f4;
+    min-width: 13vw;
+    max-width: 30vw;
+    max-height: 30vh;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 16px rgb(0 0 0 / 8%);
+    flex-grow: 4;
+}
+
+main .card:hover{
+    transform: scale(1.02);
+    border: 1px solid #ea1d2c;
+    outline: #ea1d2c;
+}
+
+main .card .pedido {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:start;
+}

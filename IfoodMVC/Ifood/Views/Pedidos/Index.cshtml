@@ -1,0 +1,53 @@
+@model List<PedidoModel>;
+
+@{
+    ViewData["Title"] = "Restaurantes";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+
+    <link rel="stylesheet" href="~/css/pedidos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <img src="~/images/logo-ifood.png" alt="Logo">
+            <nav>
+                <ul>
+                    <li><a href="/Restaurantes">Restaurantes</a></li>
+                    <li><a asp-controller="Login" asp-action="Sair">Sair</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            @foreach (PedidoModel pedido in Model)
+            {
+
+                <div class="card">
+                    <h4>@pedido.DataPedido</h4>
+                    <div class="pedido">
+
+                        <p><strong>Restaurante: </strong>@pedido.Restaurante.Nome</p>
+                        <p><strong>Cliente: </strong>@pedido.Usuario.Nome</p>
+                        <p><strong>Produto: </strong>@pedido.Produto.NomeProduto</p>
+                        <p><strong>Valor: </strong>R$ @pedido.Produto.Preco</p>
+
+                    </div>
+                </div>
+            }
+
+        </main>
+    </div>
+</body>
+</html>

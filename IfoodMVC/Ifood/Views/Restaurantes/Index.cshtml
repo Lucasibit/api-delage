@@ -1,0 +1,114 @@
+﻿@model List<RestauranteModel>;
+
+@{
+    ViewData["Title"] = "Restaurantes";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurantes</title>
+    <link rel="stylesheet" href="~/css/rest.css">
+    <link rel="shortcut icon" href="~/images/logo-ifood.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="hero">
+                <div class="header">
+                    <div class="content">
+                        <a asp-controller="Restaurantes" asp-action="Index"><img src="~/images/logo-ifood.png" width="320" height="205" alt="Logo iFood" class="logo"></a>
+                    </div>
+                    <ul>
+                        <li><a asp-controller="Restaurantes" asp-action="Criar" style="align-items:center;">Adicionar Restaurantes</a></li>
+
+                        <form asp-controller="RequestCep" asp-action="Index" asp-route-cep="cep"
+                        method="get" class="form">
+                            <div class="search">
+                                <img src="~/images/search.svg" alt="">
+                                <input id="cep" name="cep" type="text" placeholder="Busque por item ou loja" 
+                                    size="8" maxlength="8" minlength="8" required>
+                            </div>
+    
+                            <button type="submit">Buscar</button>
+                        </form>
+
+                        <nav>
+                            <ul>
+                                <li><a asp-controller="Pedidos" asp-action="Index">Pedidos</a></li>
+                                <li><a asp-controller="Login" asp-action="Sair">Sair</a></li>
+                            </ul>
+                        </nav>
+
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="banner">
+            <img src="images/banner1.png" alt="">
+            <img src="images/banner_sobremesa.png" alt="">
+            <img src="images/banner_semedicao.png" alt="">
+        </div>
+        <div class="text">
+            <h2>Famosos no iFood</h2>
+            <div class="scroller">
+                <div class="scroller-item">
+                    <a href="rest2.html"><img src="~/images/mc-logo.png" alt=""></a>
+                    <a href=""><img src="~/images/s2u-logo.png" alt=""></a>
+                    <a href=""><img src="~/images/hnt-logo.png" alt=""></a>
+                    <a href=""><img src="~/images/acallento-logo.jpg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="lojas">
+                    <h2>Lojas</h2>
+                    <div class="slider">
+                        <ul class="allcard">
+
+                            @foreach (RestauranteModel restaurante in Model)
+                            {
+                                <div class="card">
+                                    <a asp-controller="Restaurantes" asp-action="GetProdutos" asp-route-id="idRestaurante-@restaurante.IdRestaurante"><img class="product" src="~/images_restaurantes/@restaurante.CaminhoImagem" alt=""></a>
+                                    <h4><a>@restaurante.Nome</a></h4>
+                                    <div class="rating">
+                                        &#9733;
+                                        &#9733;
+                                        &#9733;
+                                        &#9733;
+                                        &#9734;
+                                    </div>
+                                </div>
+
+                            }
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <footer>
+        <img src="images/logofooter.svg" alt="">
+        <span>© Copyright 2020 - iFood <br />Todos os direitos reservados</span>
+    </footer>
+
+</body>
+</html>
+
+
