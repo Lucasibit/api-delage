@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formCep.css">
+    <title>Cadastro de Endereço</title>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="logo" >
+            <img src="logo-ifood.png">
+        </div>
+
+        <div class="box">
+
+
+            <div class="form">
+            
+                <div class="campo">
+                    <label for="CEP"><strong>CEP</strong></label>
+                    <input type="number" name="CEP" id="CEP" required>
+                    <button class="search" > <img src="search.svg" alt=""></button>
+                </div>
+
+                <div class="hidden">
+                    <div class="endereco">
+                        <label for="endereco"><strong>Endereço</strong></label>
+                        <input type="text" name="endereco" autocomplete required>
+                    </div>
+
+                    <div class="numero">
+                        <label for="numero"><strong>Número</strong></label>
+                        <input type="number" name="numero" autocomplete required>
+                    </div>
+                    
+                    <div class="complemento">
+                        <label for="complemento"><strong>Complemento</strong></label>
+                        <input type="text" name="complemento" autocomplete required>
+                    </div>
+
+                    <div class="bairro">
+                        <label for="bairro"><strong>Bairro</strong></label>
+                        <input type="text" name="bairro" autocomplete required>
+                    </div>
+
+                    <div class="cidade">
+                        <label for="cidade"><strong>Cidade</strong></label>
+                        <input type="text" name="cidade" autocomplete required>
+                    </div>
+
+                    <div class="estado">
+                        <label for="estado"><strong>Estado</strong></label>
+                        <input type="text" name="estado" autocomplete required>
+                    </div>
+
+                </div>
+
+                
+                <div class="submit" >
+                    <button>Cadastrar</button>
+                </div>
+
+
+            </div>
+            
+
+
+        </div>
+
+    </div>
+
+    <script>
+        var btn = document.querySelector('.search');
+        var hidden = document.querySelector('.hidden');
+
+        btn.addEventListener('click', function(){
+
+            if(hidden.style.display === 'block'){
+                hidden.style.display = 'none';
+            } else{
+                hidden.style.display = 'block';
+            }
+        });
+    </script>
+
+</body>
+</html>
