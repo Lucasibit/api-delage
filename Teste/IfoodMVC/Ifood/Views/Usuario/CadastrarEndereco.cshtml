@@ -1,0 +1,86 @@
+@model EnderecoModel;
+
+<link rel="stylesheet" href="CadastroEndereco.css" asp-append-version="true">
+
+
+<body>
+
+    <div class="container">
+        
+        <div class="logo" >
+            <img src="logo-ifood.png">
+        </div>
+
+        <div class="box">
+
+
+            <form class="form" asp-controller="Usuario" asp-action="CadastrarEndereco" method="post">
+
+                <div class="campo">
+                    <label for="CEP"><strong>CEP</strong></label>
+                    <input type="number" name="CEP" id="CEP" required asp-for="Cep">
+                    <button class="search" > <img src="search.svg" alt=""></button>
+                </div>
+
+                <div class="hidden">
+                    <div class="endereco">
+                        <label for="endereco"><strong>Endereço</strong></label>
+                        <input type="text" name="endereco" autocomplete required asp-for="Rua">
+                    </div>
+
+                    <div class="numero">
+                        <label for="numero"><strong>Número</strong></label>
+                        <input type="number" name="numero" autocomplete required asp-for="Numero">
+                    </div>
+                    
+                    <div class="complemento">
+                        <label for="complemento"><strong>Complemento</strong></label>
+                        <input type="text" name="complemento" autocomplete required asp-for="Complemento">
+                    </div>
+
+                    <div class="bairro">
+                        <label for="bairro"><strong>Bairro</strong></label>
+                        <input type="text" name="bairro" autocomplete required asp-for="Bairro">
+                    </div>
+
+                    <div class="cidade">
+                        <label for="cidade"><strong>Cidade</strong></label>
+                        <input type="text" name="cidade" autocomplete required asp-for="Cidade">
+                    </div>
+
+                    <div class="estado">
+                        <label for="estado"><strong>Estado</strong></label>
+                        <input type="text" name="estado" autocomplete required asp-for="UF">
+                    </div>
+
+                </div>
+
+                
+                <div class="submit" >
+                    <button type="submit">Cadastrar</button>
+                </div>
+
+
+            </form>
+            
+
+
+        </div>
+
+    </div>
+
+    <script>
+        var btn = document.querySelector('.search');
+        var hidden = document.querySelector('.hidden');
+
+        btn.addEventListener('click', function(){
+
+            if(hidden.style.display === 'block'){
+                hidden.style.display = 'none';
+            } else{
+                hidden.style.display = 'block';
+            }
+        });
+    </script>
+
+</body>

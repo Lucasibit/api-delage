@@ -1,0 +1,525 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\css\\create-acc.css",
+      "PackagePath": "staticwebassets\\css\\create-acc.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\css\\pedidos.css",
+      "PackagePath": "staticwebassets\\css\\pedidos.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\css\\rest.css",
+      "PackagePath": "staticwebassets\\css\\rest.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\css\\rest2.css",
+      "PackagePath": "staticwebassets\\css\\rest2.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\acallento-logo.jpg",
+      "PackagePath": "staticwebassets\\images\\acallento-logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\banner1.png",
+      "PackagePath": "staticwebassets\\images\\banner1.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\banner_semedicao.png",
+      "PackagePath": "staticwebassets\\images\\banner_semedicao.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\banner_sobremesa.png",
+      "PackagePath": "staticwebassets\\images\\banner_sobremesa.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\cafe.avif",
+      "PackagePath": "staticwebassets\\images\\cafe.avif"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\cafe.webp",
+      "PackagePath": "staticwebassets\\images\\cafe.webp"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\dish-left.png",
+      "PackagePath": "staticwebassets\\images\\dish-left.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\dish-right.png",
+      "PackagePath": "staticwebassets\\images\\dish-right.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\fundo.png",
+      "PackagePath": "staticwebassets\\images\\fundo.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\hnt-logo.png",
+      "PackagePath": "staticwebassets\\images\\hnt-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\ifood-icon.png",
+      "PackagePath": "staticwebassets\\images\\ifood-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\landing-banner-1.png",
+      "PackagePath": "staticwebassets\\images\\landing-banner-1.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\landing-banner-2.png",
+      "PackagePath": "staticwebassets\\images\\landing-banner-2.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\landing-banner-3.png",
+      "PackagePath": "staticwebassets\\images\\landing-banner-3.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\left.svg",
+      "PackagePath": "staticwebassets\\images\\left.svg"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\logo-ifood.png",
+      "PackagePath": "staticwebassets\\images\\logo-ifood.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\logofooter.svg",
+      "PackagePath": "staticwebassets\\images\\logofooter.svg"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\mc-logo.png",
+      "PackagePath": "staticwebassets\\images\\mc-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\right.svg",
+      "PackagePath": "staticwebassets\\images\\right.svg"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\s2u-logo.png",
+      "PackagePath": "staticwebassets\\images\\s2u-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\search.svg",
+      "PackagePath": "staticwebassets\\images\\search.svg"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images\\teste_comida.jpg",
+      "PackagePath": "staticwebassets\\images\\teste_comida.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\0de7ff24-0da1-4f5e-bc67-23257f05e8b3_mc-donalds.png",
+      "PackagePath": "staticwebassets\\images_produtos\\0de7ff24-0da1-4f5e-bc67-23257f05e8b3_mc-donalds.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\10d86a84-e8b4-43fb-8600-22b1c4beaf50_3ddad67e-b453-43e9-8881-b76d76e0ae3f_burger-king-rodeio.png",
+      "PackagePath": "staticwebassets\\images_produtos\\10d86a84-e8b4-43fb-8600-22b1c4beaf50_3ddad67e-b453-43e9-8881-b76d76e0ae3f_burger-king-rodeio.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\20fbc425-341d-480a-89f2-5d146d3d8066_2ecc0a88-f8bc-4867-a494-6a723888aa49_burger-king-rodeio.png",
+      "PackagePath": "staticwebassets\\images_produtos\\20fbc425-341d-480a-89f2-5d146d3d8066_2ecc0a88-f8bc-4867-a494-6a723888aa49_burger-king-rodeio.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\2ecc0a88-f8bc-4867-a494-6a723888aa49_burger-king-rodeio.png",
+      "PackagePath": "staticwebassets\\images_produtos\\2ecc0a88-f8bc-4867-a494-6a723888aa49_burger-king-rodeio.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\3ddad67e-b453-43e9-8881-b76d76e0ae3f_burger-king-rodeio.png",
+      "PackagePath": "staticwebassets\\images_produtos\\3ddad67e-b453-43e9-8881-b76d76e0ae3f_burger-king-rodeio.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\3f031582-44d5-4bad-8bdb-738920d89793_2ecc0a88-f8bc-4867-a494-6a723888aa49_burger-king-rodeio.png",
+      "PackagePath": "staticwebassets\\images_produtos\\3f031582-44d5-4bad-8bdb-738920d89793_2ecc0a88-f8bc-4867-a494-6a723888aa49_burger-king-rodeio.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\61217866-86c0-43ef-b725-dc7d8ead69dd_WhatsApp Image 2022-10-31 at 07.16.56 (1)-1.jpeg",
+      "PackagePath": "staticwebassets\\images_produtos\\61217866-86c0-43ef-b725-dc7d8ead69dd_WhatsApp Image 2022-10-31 at 07.16.56 (1)-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\821aeb1c-2dd7-4975-a91c-98a88a4dfdbc_WhatsApp Image 2022-10-31 at 07.16.56 (1)-1.jpeg",
+      "PackagePath": "staticwebassets\\images_produtos\\821aeb1c-2dd7-4975-a91c-98a88a4dfdbc_WhatsApp Image 2022-10-31 at 07.16.56 (1)-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\Imagens-restaurantes\\bobs.png",
+      "PackagePath": "staticwebassets\\images_produtos\\Imagens-restaurantes\\bobs.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\Imagens-restaurantes\\burger-king.png",
+      "PackagePath": "staticwebassets\\images_produtos\\Imagens-restaurantes\\burger-king.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\Imagens-restaurantes\\mc-donalds.png",
+      "PackagePath": "staticwebassets\\images_produtos\\Imagens-restaurantes\\mc-donalds.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\Imagens-restaurantes\\outback.png",
+      "PackagePath": "staticwebassets\\images_produtos\\Imagens-restaurantes\\outback.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\Imagens-restaurantes\\starbucks.png",
+      "PackagePath": "staticwebassets\\images_produtos\\Imagens-restaurantes\\starbucks.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\Imagens-restaurantes\\subway.png",
+      "PackagePath": "staticwebassets\\images_produtos\\Imagens-restaurantes\\subway.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\burger-king-rodeio.png",
+      "PackagePath": "staticwebassets\\images_produtos\\burger-king-rodeio.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\d1554aaf-7792-4894-b5c0-b43a07eceee3_mc-donalds.png",
+      "PackagePath": "staticwebassets\\images_produtos\\d1554aaf-7792-4894-b5c0-b43a07eceee3_mc-donalds.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\d2d6317e-7fcc-477f-a779-546260093551_burger-king.png",
+      "PackagePath": "staticwebassets\\images_produtos\\d2d6317e-7fcc-477f-a779-546260093551_burger-king.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\de8ed1c8-d417-44d3-9d47-602bffb7247e_burger-king-rodeio.png",
+      "PackagePath": "staticwebassets\\images_produtos\\de8ed1c8-d417-44d3-9d47-602bffb7247e_burger-king-rodeio.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\e24766f0-4e44-413d-b8c4-5402590a7c31_3f031582-44d5-4bad-8bdb-738920d89793_2ecc0a88-f8bc-4867-a494-6a723888aa49_burger-king-rodeio.png",
+      "PackagePath": "staticwebassets\\images_produtos\\e24766f0-4e44-413d-b8c4-5402590a7c31_3f031582-44d5-4bad-8bdb-738920d89793_2ecc0a88-f8bc-4867-a494-6a723888aa49_burger-king-rodeio.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_produtos\\fea3cc22-cc95-46c6-993c-2f1f5b187405_mc-donalds.png",
+      "PackagePath": "staticwebassets\\images_produtos\\fea3cc22-cc95-46c6-993c-2f1f5b187405_mc-donalds.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_restaurantes\\03f10e7d-752d-4481-9374-0f621d7e208e_mc-donalds.png",
+      "PackagePath": "staticwebassets\\images_restaurantes\\03f10e7d-752d-4481-9374-0f621d7e208e_mc-donalds.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_restaurantes\\054d004a-38ad-4102-a446-0145aa300b32_logo_delage.png",
+      "PackagePath": "staticwebassets\\images_restaurantes\\054d004a-38ad-4102-a446-0145aa300b32_logo_delage.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_restaurantes\\387d3200-3680-41d1-8223-8aad8f1b4365_mc-donalds.png",
+      "PackagePath": "staticwebassets\\images_restaurantes\\387d3200-3680-41d1-8223-8aad8f1b4365_mc-donalds.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_restaurantes\\8afcc28d-172c-4223-b47b-1e3f9fafbaf0_burger-king.png",
+      "PackagePath": "staticwebassets\\images_restaurantes\\8afcc28d-172c-4223-b47b-1e3f9fafbaf0_burger-king.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_restaurantes\\9ac72e6a-a992-4fe0-b39f-a91261d14ed4_burger-king.png",
+      "PackagePath": "staticwebassets\\images_restaurantes\\9ac72e6a-a992-4fe0-b39f-a91261d14ed4_burger-king.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_restaurantes\\a6da0951-1c71-49a0-aacd-f943002c53b2_burger-king.png",
+      "PackagePath": "staticwebassets\\images_restaurantes\\a6da0951-1c71-49a0-aacd-f943002c53b2_burger-king.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_restaurantes\\ba65f672-99d2-493b-aa3d-c3ea51c08419_mc-donalds.png",
+      "PackagePath": "staticwebassets\\images_restaurantes\\ba65f672-99d2-493b-aa3d-c3ea51c08419_mc-donalds.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_restaurantes\\bd504bf1-46d7-4322-9cd7-0b3c5e4d007c_mc-donalds.png",
+      "PackagePath": "staticwebassets\\images_restaurantes\\bd504bf1-46d7-4322-9cd7-0b3c5e4d007c_mc-donalds.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_restaurantes\\bobs.png",
+      "PackagePath": "staticwebassets\\images_restaurantes\\bobs.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_restaurantes\\burger-king.png",
+      "PackagePath": "staticwebassets\\images_restaurantes\\burger-king.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_restaurantes\\c9e9242d-f8ed-46e8-aaa9-db8e7a39ba9b_burger-king.png",
+      "PackagePath": "staticwebassets\\images_restaurantes\\c9e9242d-f8ed-46e8-aaa9-db8e7a39ba9b_burger-king.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_restaurantes\\cbeae781-3291-4259-a1d0-29365fd1f97c_burger-king.png",
+      "PackagePath": "staticwebassets\\images_restaurantes\\cbeae781-3291-4259-a1d0-29365fd1f97c_burger-king.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_restaurantes\\e0b9d86d-7528-4188-82b2-2ef73a18fe79_mc-donalds.png",
+      "PackagePath": "staticwebassets\\images_restaurantes\\e0b9d86d-7528-4188-82b2-2ef73a18fe79_mc-donalds.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_restaurantes\\f392f423-734a-41dc-9a7f-c4493fd46c9c_burger-king.png",
+      "PackagePath": "staticwebassets\\images_restaurantes\\f392f423-734a-41dc-9a7f-c4493fd46c9c_burger-king.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_restaurantes\\mc-donalds.png",
+      "PackagePath": "staticwebassets\\images_restaurantes\\mc-donalds.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_restaurantes\\outback.png",
+      "PackagePath": "staticwebassets\\images_restaurantes\\outback.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_restaurantes\\starbucks.png",
+      "PackagePath": "staticwebassets\\images_restaurantes\\starbucks.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\images_restaurantes\\subway.png",
+      "PackagePath": "staticwebassets\\images_restaurantes\\subway.png"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lucas\\Documents\\delage-estagiarios\\IfoodMVC\\Ifood\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Ifood.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Ifood.props",
+      "PackagePath": "build\\Ifood.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Ifood.props",
+      "PackagePath": "buildMultiTargeting\\Ifood.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Ifood.props",
+      "PackagePath": "buildTransitive\\Ifood.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

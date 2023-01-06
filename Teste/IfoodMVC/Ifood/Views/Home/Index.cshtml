@@ -1,0 +1,85 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - IFood</title>
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.css" />
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="hero">
+
+            <header>
+                <nav>
+                    <ul>
+                        <ul>
+                            <li> <a asp-controller="Home" asp-action="Index"><img src="images/logo.svg" alt=""></a></li>
+                            <li> <a asp-controller="Restaurantes" asp-action="Index">Restaurantes</a> </li>
+                            <li> <a class="create-acc-link" asp-controller="Usuario" asp-action="Index">Criar conta</a> </li>
+                            <li> <a class="login-btn" asp-controller="Login" asp-action="Index">Entrar</a>  </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </header>
+
+
+            <section class="bg">
+                <div class="left">
+                    <img src="images/dish-left.png" alt="">
+                    <img class="svg" src="images/left.svg" alt="">
+                </div>
+
+                <div class="right">
+                    <img class="svg" src="images/right.svg" alt="">
+                    <img src="images/dish-right.png" alt="">
+                </div>
+
+                <main class="content">
+                    <img class="logo" src="images/logo.svg" alt="">
+                    <h2>Nunca foi tão facíl pedir <span>Lanches</span> </h2>
+                    <p>Descubra Restaurantes perto de você</p>
+
+                    <div class="form">
+                        <div class="search">
+                            <img src="images/search.svg" alt="">
+                            <input type="text" placeholder="Buscar endereço e número">
+                        </div>
+
+                        <button>Buscar</button>
+                    </div>
+                    <div class="tags">
+                        <span>#Pizza</span>
+                        <span>#Lanche</span>
+                        <span>#Japa</span>
+                    </div>
+                </main>
+            </section>
+
+        </div>
+
+        <div class="banner">
+
+            <img src="images/landing-banner-1.png" alt="">
+            <img src="images/landing-banner-2.png" alt="">
+            <img src="images/landing-banner-3.png" alt="">
+        </div>
+
+        <footer>
+            <img src="images/logofooter.svg" alt="">
+            <span>© Copyright 2020 - iFood <br />Todos os direitos reservados</span>
+        </footer>
+    </div>
+</body>
+
+</html>                    

@@ -1,0 +1,24 @@
+﻿namespace Ifood.Models
+{
+    public class RequestCepModel
+    {
+        public string? Cep { get; set; }
+        public string? Logradouro { get; set; }
+        public string? Complemento { get; set; }
+        public string? Bairro { get; set; }
+        public string? Localidade { get; set; }
+        public string? Uf { get; set; }
+        public string? Ibge { get; set; }
+        public string? Gia { get; set; }
+        public string? DDD { get; set; }
+        public string? Siafi { get; set; }
+
+        public override string? ToString()
+        {
+            var str = $"CEP: {Cep}\nLogradouro: {Logradouro}\nComplemento: {Complemento}\n" +
+                $"Bairro: {Bairro}\n Localidade: {Localidade}\nUF: {Uf}\nIBGE: {Ibge}\nGIA: {Gia}\n" +
+                $"DDD: {DDD}\nSiafi: {Siafi}";
+            return str;
+        }
+    }
+}

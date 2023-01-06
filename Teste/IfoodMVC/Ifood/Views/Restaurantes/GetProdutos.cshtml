@@ -1,0 +1,98 @@
+﻿@model RestauranteModel;
+
+@{
+    ViewData["Title"] = "Produtos";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="~/css/rest2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imagescar/logo-ifood.png" />
+
+</head>
+<body>
+    <header>
+
+        <div class="container">
+            <div class="hero">
+                <div class="header">
+                    <div class="content">
+                        <a asp-controller="Restaurantes" asp-action="Index"><img src="~/images/logo-ifood.png" width="320" height="205" alt="Logo iFood" class="logo"></a>
+                    </div>
+                    <ul>
+                        <li>
+                            <a asp-controller="Restaurantes" asp-action="Index">Restaurantes</a>
+                        </li>
+                        <li>
+                            <a asp-route-id="idRestaurante-@Model.IdRestaurante" asp-controller="Restaurantes" asp-action="CriarProduto">Adicionar Produto</a>
+                        </li>
+
+                        <div class="form">
+                            <form class="form">
+                                <div class="search">
+                                    <img src="~/images/search.svg" alt="">
+                                    <input type="text" placeholder="Busque por item ou loja">
+                                </div>
+
+                                <button>Buscar</button>
+                            </form>
+                            <nav>
+                                <ul>
+                                    <li><a asp-controller="Pedidos" asp-action="Index">Pedidos</a></li>
+                                    <li><a asp-controller="Login" asp-action="Sair">Sair</a></li>
+                                </ul>
+                            </nav>
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="banner">
+            <img src="~/images/fundo.png" alt="">
+        </div>
+    </header>
+
+    <div class="tentativa">
+        <div class="titulo">
+            <img src="~/images_restaurantes/@Model.CaminhoImagem" hspace="10" alt="logo">
+            <h2>@Model.Nome</h2>
+        </div>
+    </div>
+
+
+    <p><strong>Cardapio</strong></p>
+    <div class="slider">
+        @foreach (ProdutoModel produto in Model.Produtos)
+        {
+            <div class="allcard">
+                <div class="card">
+                    <img class="product" src="~/images_produtos/@produto.CaminhoImagem" alt="">
+                    <h4>@produto.NomeProduto</h4>
+                    <div class="description">
+                        <h6>Um teste da descrição do produto</h6>
+                    </div>
+                    <div class="price">
+                        <h5>R$@produto.Preco</h5>
+                        <h5>@produto.Restaurante.Nome</h5>
+                    </div>
+
+                    <form asp-controller="Restaurantes" asp-action="Comprar" asp-route-id="idProduto-@produto.IdProduto" method="post">
+                        <input type="hidden" asp-for="@produto.IdProduto" />
+                        <button type="submit" class="comprar-btn">Comprar</button>
+                    </form>
+
+                </div>
+            </div>
+        }
+</body>
+</html>
